@@ -1,0 +1,30 @@
+package org.kh.java;
+
+public class Variable4 {
+
+	public static void main(String[] args) {
+		String name = "강범준";
+		String name1 = "\'강범준\'";
+		short age = 32;
+		float height = 177.1f;
+		double weight = 69.3;
+		char init = 'k';
+		System.out.println("이름 = \"" + name + "\"");
+		System.out.println("이름 = " + name1);
+		
+		
+		
+		/* 
+		 스프링, 스프링부트, 프레임웤에서 사용
+		 이스케이프 문자
+		 \n : 줄 바꿈
+		 \t : tap
+		 \\ : \ 자체를 출력
+		 \' : '를 출력
+		 */
+		
+		
+	
+	}
+
+}

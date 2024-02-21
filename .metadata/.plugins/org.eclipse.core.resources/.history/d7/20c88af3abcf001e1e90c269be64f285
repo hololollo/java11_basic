@@ -1,0 +1,19 @@
+package org.kh.java;
+
+public class Variable5 {
+
+	public static void main(String[] args) {
+
+		char ch1 = 'H';
+		char ch2 = 65; // ascll 코드번호
+		char ch3 = 82; // ascll 코드번호
+		
+		System.out.println("아스키 코드 넘버");
+		System.out.println("ch1 : " + (int)ch1); // 명시적(강제) 형변환
+		
+		
+		System.out.println("ch2 : " + ch2);
+		System.out.println("ch3 : " + ch3);
+	}
+
+}

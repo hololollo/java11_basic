@@ -1,0 +1,23 @@
+package org.kh.java;
+
+public class Variable7 {
+
+	public static void main(String[] args) {
+
+		String name = "강범준";
+		Integer age = 32; // 대문자
+		Float height = 177.1f; // 대문자
+		// boolean pass = true;
+		Double weight = 69.3; // 대문자
+		
+		System.out.println("name = " + name.getClass().getName());
+		System.out.println("age = " + age.getClass().getName());
+		System.out.println("float = " + height.getClass().getName());
+		System.out.println("double = " + weight.getClass().getName());
+
+
+		
+
+	}
+
+}
