@@ -71,8 +71,13 @@ public class Operation7 {
 		//우선순위   1  2   3  2  4   2  3   2
 		
 		
-		
-
+		/*
+		 if문
+		 if - else if - else
+		 if문 연속과 차이점
+		 if - else if - else : 한 조건속에서 A가 아니면 B 그것도 아니면 C
+		 if - if : 한 조건이 여러번 수행. A라면 첫번째 if문을 수행하고 종료되어야 하는데, 두번째 세번째... 쭉쭉 실행
+		 */
 		
 		
 	}

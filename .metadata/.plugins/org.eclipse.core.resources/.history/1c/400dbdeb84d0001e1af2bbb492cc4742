@@ -1,0 +1,11 @@
+package org.kh.app;
+//조건문 if~elseif(~else~)
+public class Condition3 {
+
+	public static void main(String[] args) {
+		int a = 32;
+		String b = "강범준"
+				
+	}
+
+}
