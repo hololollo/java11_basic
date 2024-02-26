@@ -10,7 +10,7 @@ public class StudentEx3 {
 		Scanner scn = new Scanner(System.in);
 		for(int i=0;i<5;i++) {
 			Student st = new Student();	//한 명의 학생 객체
-			st.setNum(i+1);		//번호 자동 부여
+			st.setNo(i+1);		//번호 자동 부여
 			System.out.print((i+1)+"번째 국어 : ");	//국어 점수 입력
 			st.setKor(scn.nextInt());
 			System.out.print((i+1)+"번째 영어 : ");	//영어 점수 입력

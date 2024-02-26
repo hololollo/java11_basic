@@ -19,7 +19,7 @@ public class StudentEx1 {
 		Scanner scn = new Scanner(System.in);
 		for(int i=0;i<5;i++) {
 			s[i] = new Student();	//개별 객체 생성
-			s[i].setNum(i+1);		//번호 자동 부여
+			s[i].setNo(i+1);		//번호 자동 부여
 			System.out.print((i+1)+"번째 국어 : ");	//국어 점수 입력
 			s[i].setKor(scn.nextInt());
 			System.out.print((i+1)+"번째 영어 : ");	//영어 점수 입력
