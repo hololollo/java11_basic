@@ -1,3 +1,4 @@
+package org.kh.app;
 
 public class Condition5 {
 
@@ -22,6 +23,7 @@ public class Condition5 {
 			실행문n;
 			}
 		 */
+		/*
 		int rank = 1;
 		String sisang = "";
 		switch(rank) {
@@ -49,6 +51,7 @@ public class Condition5 {
 		default : 
 			remark = "일반";
 		}
+		*/
 	}
-
+		 
 }

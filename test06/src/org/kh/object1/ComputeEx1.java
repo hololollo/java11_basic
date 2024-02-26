@@ -21,6 +21,7 @@ public class ComputeEx1 {
 		fnc2(200);
 		System.out.println(fnc3());
 		System.out.println("원의 넓이 : " + fnc4(25));
+		
 	}
 		//함수(Function) : 정의 호출
 		public static void fnc1() {
