@@ -14,7 +14,7 @@ public class People {
 	}
 	public static void print2() { // 정적(static)메서드에서는 this 선언 불가능
 		System.out.println("Name : 아무개" );
-		System.out.println("Age : 28" );
+		System.out.println("Age : 28");
 	}
 	
 }

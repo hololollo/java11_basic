@@ -15,15 +15,14 @@ public class Bus {
 	//승객이 버스를 타면 행해지는 일 : 승객수 증가, 버스 수입 증가(누적)
 	
 	public void take(int money) {
-		this.fee += money; 
-		count++;
+		this.fee += money; // fee = fee + money
+		count++; // count = count + 1
 	}
 	
 	// 버스의 현재 정보 출력 (직접 해도 되고, 오버라이드 써도 되고)
 	public void show() {
 		System.out.println("버스 번호 : " + this.no + "수입금액 : " + this.fee + "승객수 : " + this.count);
 	}
-	
 	
 	public int getNum() {
 		return no;

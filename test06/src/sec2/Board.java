@@ -15,8 +15,6 @@ public class Board {
 		this.bno = bno;
 	}
 	
-
-
 	public Board(int bno, String title) {
 		this.bno = bno;
 		this.title = title;

@@ -1,8 +1,9 @@
-package sec1;
-
+package sec3;
+// protected 같은 패키지이거나 상속관계에 있으면 직접접근(사용) 가능
 public class Birds extends Animal{ // 확장, animal(상속 받는다)
-	private int wings;
-	private boolean fly;
+	
+	protected int wings;
+	protected boolean fly;
 
 	public int getWings() {
 		return wings;
@@ -21,8 +22,8 @@ public class Birds extends Animal{ // 확장, animal(상속 받는다)
 	}
 
 	@Override
-	public String print() {
-		return "Birds wings = [" + wings + "], name = [" + super.getName() + "]";
+	public String print() { // default값으로 직접 접근 가능
+		return "Birds wings = [" + wings + "], name = [" + super.name + "]";
 	}
 	
 	

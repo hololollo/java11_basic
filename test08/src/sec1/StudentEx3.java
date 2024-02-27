@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class StudentEx3 {
 	public static void main(String[] args) {
-		List<Student> s = new ArrayList<Student>();	//목록
+		List<Student> s = new ArrayList<Student>();	//목록(배열 명)
 		Scanner scn = new Scanner(System.in);
 		for(int i=0;i<5;i++) {
 			Student st = new Student();	//한 명의 학생 객체
@@ -20,7 +20,7 @@ public class StudentEx3 {
 			s.add(st);
 		}
 		System.out.println("번호\t국어\t영어\t수학\t총점\t평균\t학점\t");
-		for(Student t:s) {
+		for(Student t:s) { // 향상된 for문(자료형 변수명 : 배열명(목록))
 			t.print();
 		}
 	}
