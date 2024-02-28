@@ -10,6 +10,7 @@ public class Operation5 {
 				System.out.println(dan + "단 * " + i + " =" + dan * i);
 			}
 		}
+		
 		int a = 25;
 		int b = 28;
 		int c = 27;
